@@ -4,15 +4,15 @@
 
 # Site
 title: Ibhi's blog
-subtitle: Sky is the limit
-description: To help noobs to bring upto speed
+subtitle: Limited only by imagination
+description: To help noobs and to bring them upto speed
 author: Ibhi
 language: en
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://blog.noobish.in
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
