@@ -1,4 +1,5 @@
 title: About
-date: 2015-10-07 08:08:39
+layout: page
 comments: false
+date: 2015-10-08 05:34:23
 ---
