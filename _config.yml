@@ -38,10 +38,11 @@ post_asset_folder: true
 relative_link: false
 future: true
 highlight:
-  enable: true
-  line_number: true
-  auto_detect: true
-  tab_replace:
+  enable: false
+  #enable: true
+  #line_number: true
+  #auto_detect: true
+  #tab_replace:
 
 # Category & Tag
 default_category: uncategorized
@@ -66,6 +67,28 @@ pagination_dir: page
 
 # Extensions
 ## Plugins: http://hexo.io/plugins/
+prism_plugin:
+# mode:
+# 
+# realtime (Parse code on browser in real time)
+# preprocess (Preprocess code in node)
+# theme:
+# 
+# default
+# coy
+# dark
+# funky
+# okaidia
+# solarizedlight
+# tomorrow
+# twilight
+# line_number:
+# 
+# true (Show line numbers)
+# false (Default, Hide line numbers)
+  mode: 'preprocess'    # realtime/preprocess
+  theme: 'tomorrow'
+  line_number: true    # default false
 ## Themes: http://hexo.io/themes/
 theme: hueman
 
