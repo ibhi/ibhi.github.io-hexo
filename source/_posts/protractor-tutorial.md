@@ -96,9 +96,10 @@ describe('Protractor Demo App', function() {
   });
 });
 ```
-For now just skip the `browser.get()` method and lets focus on `element` and `by` methods provided by protractor. `element` method is used to find HTML elements on the page and it returns ElementFinder object which has methods like `getText`, `sendKeys` and `click` etc methods to interact with the element. The `by` object is used to create locators. In the above example
-* by.model('first') to find the element with ng-model="first". If you inspect the Calculator page source, you will see this is <input type="text" ng-model="first">.
-* by.id('gobutton') to find the element with the given id. This finds <button id="gobutton">.
-* by.binding('latest') to find the element bound to the variable latest. This finds the span containing {{latest}}
+For now just skip the `browser.get()` method and lets focus on `element` and `by` methods provided by protractor. `element` method is used to find HTML elements on the page and it returns ElementFinder object which has methods like `getText`, `sendKeys` and `click` etc., to interact with the element. The `by` object is used to create locators. 
+In the above example
+* `by.model('first')` to find the element with `ng-model="first"`. If you inspect the Calculator page source, you will see this is `<input type="text" ng-model="first">`.
+* `by.id('gobutton')` to find the element with the given id. This finds `<button id="gobutton">`.
+* `by.binding('latest')` to find the element bound to the variable latest. This finds the span containing `{{latest}}`
 
 **Stay tuned for Part 2!!**

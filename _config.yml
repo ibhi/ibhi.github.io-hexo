@@ -89,6 +89,31 @@ prism_plugin:
   mode: 'preprocess'    # realtime/preprocess
   theme: 'tomorrow'
   line_number: true    # default false
+# html minifier
+html_minifier:
+  enable: true
+  exclude: 
+# css minifier
+css_minifier:
+  enable: true
+  exclude: 
+    - '*.min.css'
+# js minifier
+js_minifier:
+  enable: true
+  mangle: true
+  output:
+  compress:
+  exclude: 
+    - '*.min.js'
+# image minifier
+image_minifier:
+  enable: true
+  interlaced: false
+  multipass: false
+  optimizationLevel: 2
+  pngquant: false
+  progressive: false
 ## Themes: http://hexo.io/themes/
 theme: hueman
 
