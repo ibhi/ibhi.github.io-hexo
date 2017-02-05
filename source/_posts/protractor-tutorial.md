@@ -4,6 +4,7 @@ date: 2017-02-04 19:37:18
 tags: protractor, e2e testing, angularjs testing
 categories: Web
 ---
+{% asset_img angular-protractor.png %}
 ## What is Protractor?
 According to the official protractor website, "Protractor is an end-to-end test framework for Angular and AngularJS applications. Protractor runs tests against your application running in a real browser, interacting with it as a user would."
 Some of the nice features of protractor are
