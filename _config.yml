@@ -89,6 +89,12 @@ prism_plugin:
   mode: 'preprocess'    # realtime/preprocess
   theme: 'tomorrow'
   line_number: true    # default false
+
+all_minifier: true
+js_concator:
+  enable: true
+  bundle_path: '/js/bundle.js'
+  front: false
 # html minifier
 html_minifier:
   enable: true
@@ -102,13 +108,11 @@ css_minifier:
 js_minifier:
   enable: true
   mangle: true
-  output:
-  compress:
   exclude: 
     - '*.min.js'
 # image minifier
 image_minifier:
-  enable: true
+  enable: false
   interlaced: false
   multipass: false
   optimizationLevel: 2

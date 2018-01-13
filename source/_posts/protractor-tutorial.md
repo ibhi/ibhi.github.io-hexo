@@ -1,7 +1,11 @@
 title: Protractor Tutorial
 comments: true
 date: 2017-02-04 19:37:18
-tags: protractor, e2e testing, angularjs testing
+tags: 
+    - protractor
+    - e2e
+    - testing
+    - angularjs
 categories: Web
 ---
 {% asset_img angular-protractor.png %}
