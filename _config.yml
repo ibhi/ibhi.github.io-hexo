@@ -6,7 +6,7 @@
 title: Ibhi's blog
 subtitle: Limited only by imagination
 description: To help noobs and to bring them upto speed
-author: Ibhi
+author: Ibrahim
 language: en
 timezone:
 
@@ -38,11 +38,11 @@ post_asset_folder: true
 relative_link: false
 future: true
 highlight:
-  enable: false
-  #enable: true
-  #line_number: true
-  #auto_detect: true
-  #tab_replace:
+  # enable: false
+  enable: true
+  line_number: true
+  auto_detect: false
+  tab_replace:
 
 # Category & Tag
 default_category: uncategorized
@@ -67,7 +67,7 @@ pagination_dir: page
 
 # Extensions
 ## Plugins: http://hexo.io/plugins/
-prism_plugin:
+#prism_plugin:
 # mode:
 # 
 # realtime (Parse code on browser in real time)
@@ -86,13 +86,13 @@ prism_plugin:
 # 
 # true (Show line numbers)
 # false (Default, Hide line numbers)
-  mode: 'preprocess'    # realtime/preprocess
-  theme: 'tomorrow'
-  line_number: true    # default false
+  # mode: 'preprocess'    # realtime/preprocess
+  # theme: 'tomorrow'
+  # line_number: true    # default false
 
 all_minifier: true
 js_concator:
-  enable: true
+  enable: false
   bundle_path: '/js/bundle.js'
   front: false
 # html minifier
@@ -137,53 +137,53 @@ disqus_shortname: noobish
 # Logo Url
 # Please enter an absolute path to your logo file
 # or remove the following line with replacing logo-header.png with your own logo
-logo: /css/images/noobish_logo.png
+# logo: /css/images/noobish_logo.png
 
-# Header
-menu:
-  Home: /
-  # Delete this row if you don't want categories in your header nav bar
-  Categories:
-  About: /About/index.html
+# # Header
+# menu:
+#   Home: /
+#   # Delete this row if you don't want categories in your header nav bar
+#   Categories:
+#   About: /About/index.html
 
-# Article list grouped by year
-groupByYear: true
+# # Article list grouped by year
+# groupByYear: true
 
-# Content
-fancybox: true
+# # Content
+# fancybox: true
 
-# Thumbnail
-thumbnail: true
+# # Thumbnail
+# thumbnail: true
 
-# Scroll Loading
-scrollLoading: true
+# # Scroll Loading
+# scrollLoading: true
 
-# Sidebar
-sidebar: left # sidebar's position (left or right)
-social_links:
-  twitter:
-  facebook:
-  google-plus:
-  github: https://github.com/ppoffice/hexo-theme-hueman
-  weibo:
-  rss:
-widgets:
-- recent_posts
-- category
-- archive
-- tag
-- tagcloud
-- links
+# # Sidebar
+# sidebar: left # sidebar's position (left or right)
+# social_links:
+#   twitter:
+#   facebook:
+#   google-plus:
+#   github: https://github.com/ppoffice/hexo-theme-hueman
+#   weibo:
+#   rss:
+# widgets:
+# - recent_posts
+# - category
+# - archive
+# - tag
+# - tagcloud
+# - links
 
-# Links
-links:
-  Hexo: http://hexo.io
+# # Links
+# links:
+#   Hexo: http://hexo.io
 
-# Don't Use Google APIs if you are in google-blocked areas
-use_google_apis: true
+# # Don't Use Google APIs if you are in google-blocked areas
+# use_google_apis: true
 
-# Miscellaneous
-google_analytics:
-favicon: /favicon.png
-fb_admins:
-fb_app_id:
+# # Miscellaneous
+# google_analytics:
+# favicon: /favicon.png
+# fb_admins:
+# fb_app_id:

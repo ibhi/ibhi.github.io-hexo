@@ -34,7 +34,7 @@ users --> nginx --|
 
 Lets modify the default nginx configuration (`/etc/nginx/sites-enabled/default`) to achieve the above use case as shown below
 
-```
+```nginx
     location / {
             # First attempt to serve request as file, then
             # as directory, then fall back to displaying a 404.

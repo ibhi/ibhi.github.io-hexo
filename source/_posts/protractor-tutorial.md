@@ -55,7 +55,7 @@ exports.config = {
 ## Jasmine overview
 A birds-eye overview on Jasmine
 
-```js
+```javascript
     // Represents test suite
     describe('Test suite name', function() {
         beforeEach(function() {
