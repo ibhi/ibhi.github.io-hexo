@@ -132,6 +132,13 @@ deploy:
 # Sitemap plugin https://github.com/ludoviclefevre/hexo-generator-seo-friendly-sitemap
 sitemap:
     path: sitemap.xml
+
+# robots.txt plugin https://github.com/leecrossley/hexo-generator-robotstxt
+robotstxt:
+  useragent: "*"
+  disallow:
+  sitemap: /sitemap.xml
+
 # # Comments
 # disqus_shortname: noobish
 
