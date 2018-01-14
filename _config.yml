@@ -92,7 +92,7 @@ pagination_dir: page
 
 all_minifier: true
 js_concator:
-  enable: false
+  enable: true
   bundle_path: '/js/bundle.js'
   front: false
 # html minifier
@@ -129,8 +129,8 @@ deploy:
   branch: master
   message: 
 
-# Comments
-disqus_shortname: noobish
+# # Comments
+# disqus_shortname: noobish
 
 ##Theme sepcific settings
 
