@@ -1,4 +1,4 @@
-title: Starting and stopping EC2 instances on schedule
+title: Stop and Start Amazon EC2 instances at regular intervals using AWS Lambda
 comments: true
 date: 2018-01-13 13:01:54
 tags: 

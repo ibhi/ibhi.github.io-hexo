@@ -129,6 +129,9 @@ deploy:
   branch: master
   message: 
 
+# Sitemap plugin https://github.com/ludoviclefevre/hexo-generator-seo-friendly-sitemap
+sitemap:
+    path: sitemap.xml
 # # Comments
 # disqus_shortname: noobish
 
