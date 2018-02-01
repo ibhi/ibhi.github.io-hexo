@@ -1,8 +1,8 @@
 pipeline {
+    agent {
+        docker { image 'node:8-alpine' }
+    }
     node('ec2-fleet') {
-        agent {
-            docker { image 'node:8-alpine' }
-        }
         stages {
             stage('Clean') {
                 steps {
