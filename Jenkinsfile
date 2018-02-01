@@ -1,21 +1,24 @@
 pipeline {
     agent {
-        docker { image 'node:8-alpine' }
-    }
-    node('ec2-fleet') {
-        stages {
-            stage('Clean') {
-                steps {
-                    sh 'npm run clean'
-                }
-            }
+        docker { 
+            image 'node:8-alpine'
+            label 'ec2-fleet' 
         }
-        stages {
-            stage('Generate') {
-                steps {
-                    sh 'npm run generate'
-                }
+    }
+    
+    stages {
+        stage('Clean') {
+            steps {
+                sh 'npm run clean'
             }
         }
     }
+    stages {
+        stage('Generate') {
+            steps {
+                sh 'npm run generate'
+            }
+        }
+    }
+    
 }
