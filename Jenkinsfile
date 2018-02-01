@@ -2,12 +2,14 @@ pipeline {
     agent {
         docker { 
             image 'node:8-alpine'
-            label 'ec2-fleet' 
+            label 'ec2-fleet'
+            args '-v /tmp:/' 
         }
     }
     stages {
         stage('Install') {
             steps {
+                sh 'export NPM_CONFIG_PREFIX=~/.npm-global'
                 sh 'npm install'
             }
         }
