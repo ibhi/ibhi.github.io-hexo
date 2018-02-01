@@ -5,20 +5,16 @@ pipeline {
             label 'ec2-fleet' 
         }
     }
-    
     stages {
         stage('Clean') {
             steps {
                 sh 'npm run clean'
             }
         }
-    }
-    stages {
         stage('Generate') {
             steps {
                 sh 'npm run generate'
             }
         }
     }
-    
 }
