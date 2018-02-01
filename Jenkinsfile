@@ -3,7 +3,6 @@ pipeline {
         docker { 
             image 'node:8-alpine'
             label 'ec2-fleet'
-            args '-v /tmp:/' 
         }
     }
     stages {
