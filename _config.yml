@@ -137,7 +137,7 @@ sitemap:
 robotstxt:
   useragent: "*"
   disallow:
-  sitemap: /sitemap.xml
+  sitemap: https://blog.noobish.in/sitemap.xml
 
 # # Comments
 # disqus_shortname: noobish
